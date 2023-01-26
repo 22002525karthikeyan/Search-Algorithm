@@ -21,7 +21,7 @@ i)	#Use a linear search method to match the item in a list.
 ```Program for linear search method to match the item in a list
 Developed by:R.KARTHIKEYAN
 RegisterNumber: 22002525
-'''
+
 def linearSearch(array,n,k):
     for i in range(0,n):
         if (array[i]== k ):
@@ -49,7 +49,7 @@ ii)	# Find the element in a list using Binary Search(Iterative Method).
 Program to find the element in a list using Binary Search(Iterative Method)..
 Developed by:R.karthikeyan
 RegisterNumber:22002525 
-'''
+
 def binarySearchIter(array, k, low, high):
     while low <= high:
          mid = low + (high - low)//2
@@ -82,7 +82,7 @@ iii)	# Find the element in a list using Binary Search (recursive Method).
 Program to find the element in a list using Binary Search (recursive Method).
 Developed by: R.karthikeyan
 RegisterNumber: 22002525
-'''
+
 def BinarySearch(arr, k, low, high):
     if high>=low:
         mid = low + (high - low)//2
@@ -116,9 +116,9 @@ else:
 ```
 ## Sample Input and Output
 
-![](sa.png)
-![](sa1.png)
-![](sa2.png)
+![](jan261.png)
+![](jan262.png)
+![](jan263.png)
 
 
 
